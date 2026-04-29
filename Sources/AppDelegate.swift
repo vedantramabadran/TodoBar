@@ -50,7 +50,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         guard let screen = NSScreen.main else { return }
 
         let panelWidth: CGFloat  = 420
-        let panelHeight: CGFloat = 500
+        let panelHeight: CGFloat = 680
         let margin: CGFloat      = 20
 
         let x = screen.visibleFrame.maxX - panelWidth - margin

@@ -29,7 +29,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                .frame(maxHeight: 380)
+                .frame(minHeight: 300, maxHeight: 500)
             }
 
             // Input field
